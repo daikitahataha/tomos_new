@@ -10,7 +10,7 @@ body
   position: fixed
   top: 0
   left: 0
-  z-index: -1
+  z-index: 0
   width: 100%
   height: 740px
   .header_menu
@@ -18,21 +18,45 @@ body
       position: fixed
       top: 4%
       left: 30px
-      cursor: pointer
+      cursor: pointer !important
       z-index: 10000
       .menu-line
-        width: 50px
+        width: 1px
         margin: 0 auto 10px
         background: #FFFFFF
         height: 2px
         display: block
         transition: all 0.3s ease
-        .active span:nth-of-type(1)
-          -webkit-transform: translateY(5px) rotate(45deg)
-          transform: translateY(5px) rotate(45deg)
-        .active span:nth-of-type(2)
-          -webkit-transform: translateY(-16px) rotate(-45deg)
-          transform: translateY(-16px) rotate(-45deg)
+  .menu-nav
+    width: 40%
+    height: 100%
+    background: #FFFFFF
+    z-index: 9999
+    position: fixed
+    opacity: 1.2
+    padding: 15% 0 0 10%
+    transition: all 0.3s ease-out
+    transform: translateX(-101%)
+    .nav-item
+      text-align: left
+      font-size: 20px
+      margin-bottom: 50px
+      font-weight: 500
+      transition: all .7s
+      position: relative
+      a
+        font-family: 'Amiri-Regular'
+        letter-spacing: 0.2em
+        span
+          color: #005b98
+    .nav-item::before
+      content: ''
+      width: 35px
+      height: 1px
+      background: #16160E
+      position: absolute
+      left: -18%
+      top: 40%
   .logo_mark_img
     position: absolute
     top: 10%
@@ -42,6 +66,7 @@ body
     margin: auto
     width: 3%
     z-index: 1000
+    opacity: 0
   .logo_text_img
     position: absolute
     top: 43%
@@ -51,6 +76,8 @@ body
     margin: auto
     width: 20%
     z-index: 1000
+    animation: fv_text_img 1s ease-in 1s
+    animation-fill-mode: both
   .open
     width: 100%
     position: absolute
@@ -60,6 +87,8 @@ body
     left: 0
     margin: auto
     z-index: 1000
+    animation: open_fadeIn 1s ease-in 3s
+    animation-fill-mode: both
     .open_text
       text-align: center
       font-family: 'FuturaStd-Light'
@@ -69,11 +98,11 @@ body
   .fv_line
     position: absolute
     right: 0
-    bottom: 0
+    top: 80%
     left: 0
     margin: 0 auto
     width: 1px
-    height: 155px
+    height: 1px
     background-color: #FFFFFF
     transition: all 2s ease
   .fv_active
@@ -397,5 +426,27 @@ body
 .pc_none
   display: none
 
-.open
-  transform: translateX(100%)
+.active span:nth-of-type(1)
+  -webkit-transform: translateY(5px) rotate(0)
+  transform: translateY(0px) rotate(0)
+.active span:nth-of-type(2)
+  opacity: 0
+
+.wrapper
+  #fv
+    .open_menu
+      transform: translateX(0)
+
+@keyframes fv_text_img
+  from
+    transform: translateX(30%)
+    opacity: 0
+  to
+    transform: translateX(0)
+    opacity: 1
+
+@keyframes open_fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
