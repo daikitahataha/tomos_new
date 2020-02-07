@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
@@ -7,19 +7,21 @@
   <title>Tomos Hotel | 光と影が織りなす空間</title>
 
   <link rel="stylesheet" href="static/css/base.css">
+  <link rel="stylesheet" href="static/css/media.css">
   <link rel="stylesheet" href="static/css/fonts.css">
   <link rel="stylesheet" href="static/css/reset.css">
   <link rel="stylesheet" href="static/css/candle.css">
 </head>
 <body>
+
   <div class="wrapper">
     <section id="fv">
-       <div class="line_menu">
-          <div class="menu2" id="MenuBtn">
-            <span class="menu-line menu-line2 menu-top-line"></span>
-            <span class="menu-line menu-line2 menu-bottom-line"></span>
-          </div>
-        </div>
+      <div class="header_menu">
+         <div class="menu2" id="MenuBtn">
+           <span class="menu-line menu-line2 menu-top-line"></span>
+           <span class="menu-line menu-line2 menu-bottom-line"></span>
+         </div>
+       </div>
 
         <div class="logo_mark_img">
           <img src="static/images/logo_mark2.png" alt="">
@@ -32,7 +34,7 @@
         <!-- /.logo_text_img -->
 
         <div class="open">
-          <p class="open_text">2020.04.01 GRAND OPEN</p>
+          <p class="open_text">2020.04.01<br class="pc_none">GRAND OPEN</p>
         </div>
         <!-- /.open_text -->
 
@@ -77,7 +79,28 @@
 
     <section id="rooms_access">
       <div class="room_top_wrap">
-        <div class="floor_index">
+        <div class="catch_copy order_2">
+          <div class="rooms_title_flex">
+            <h4 class="rooms">ROOMS</h4>
+            <!-- /.rooms -->
+            <div class="rooms_img_logo">
+              <img src="static/images/logo_mark2.png" alt="">
+            </div>
+            <!-- /.rooms_img_logo -->
+          </div>
+          <!-- /.rooms_title_flex -->
+
+          <div class="catch_copy_tx_wrap">
+            <h3 class="catch_copy_tx">
+              古き良き浅草にて<br>
+              広い間取りの客室で<br>
+              やすらぎの時間を
+            </h3>
+          </div>
+          <!-- /.catch_copy_tx -->
+        </div>
+        <!-- /.catch_copy -->
+        <div class="floor_index order_1">
           <div class="floor_index_content">
               <dl>
                 <dt>
@@ -118,39 +141,22 @@
           <!-- /.floor_index_content -->
         </div>
         <!-- /.floor_index -->
-        <div class="catch_copy">
-          <div class="rooms_title_flex">
-            <h4 class="rooms">ROOMS</h4>
-            <!-- /.rooms -->
-            <div class="rooms_img_logo">
-              <img src="static/images/logo_mark2.png" alt="">
-            </div>
-            <!-- /.rooms_img_logo -->
-          </div>
-          <!-- /.rooms_title_flex -->
-
-          <div class="catch_copy_tx_wrap">
-            <h3 class="catch_copy_tx">
-              古き良き浅草にて<br>
-              広い間取りの客室で<br>
-              やすらぎの時間を
-            </h3>
-          </div>
-          <!-- /.catch_copy_tx -->
-        </div>
-        <!-- /.catch_copy -->
       </div>
       <!-- /.room_top_wrap -->
 
       <div class="room_detail_wrap">
-        <div class="room_detail_content">
-          <div class="room_texture_img">
+        <div class="room_detail_content content_1">
+          <div class="room_texture_img texture_1">
             <img src="static/images/wall_texture.png" alt="">
           </div>
           <!-- /.room_texture_img -->
 
           <div class="room_content_detail_flex">
-            <div class="room_detail_tx">
+            <div class="room_detail_img order_2">
+              <img src="static/images/skytree_room.png" alt="">
+            </div>
+            <!-- /.room_detail_img -->
+            <div class="room_detail_tx order_1">
               <h4 class="room_floor_title">10th Floor</h4>
               <!-- /.room_floor_title -->
               <h5 class="room_target">カップル向け（記念日向け）</h5>
@@ -188,28 +194,28 @@
               <!-- /.view_more -->
             </div>
             <!-- /.room_detail_tx -->
-            <div class="room_detail_img">
-              <img src="static/images/skytree_room.png" alt="">
-            </div>
-            <!-- /.room_detail_img -->
           </div>
         </div>
         <!-- /.room_detail_content -->
 
-        <div class="room_detail_content">
-          <div class="room_texture_img">
+        <div class="room_detail_content content_2">
+          <div class="room_texture_img texture_2">
             <img src="static/images/shutterstock_496615897.png" alt="">
           </div>
           <!-- /.room_texture_img -->
 
           <div class="room_content_detail_flex">
-            <div class="room_detail_tx">
+            <div class="room_detail_img order_2">
+              <img src="static/images/7F-1_re_non.png" alt="">
+            </div>
+            <!-- /.room_detail_img -->
+            <div class="room_detail_tx order_1">
               <h4 class="room_floor_title">7th, 8th, 9th Floor</h4>
               <!-- /.room_floor_title -->
               <h5 class="room_target">カップル、夫婦（子供）向け</h5>
               <!-- /.room_target -->
               <p class="room_catch_tx">
-                スカイツリーを一望出来る<br>
+                スカイツリーを一望出来る<br class="sp_none">
                 屋上展望デッキ付きスイートルーム
               </p>
               <!-- /.room_catch_tx -->
@@ -229,22 +235,22 @@
               <!-- /.view_more -->
             </div>
             <!-- /.room_detail_tx -->
-            <div class="room_detail_img">
-              <img src="static/images/7F-1_re_non.png" alt="">
-            </div>
-            <!-- /.room_detail_img -->
           </div>
           <!-- /.room_detail_content -->
         </div>
 
-        <div class="room_detail_content">
-          <div class="room_texture_img">
+        <div class="room_detail_content content_3">
+          <div class="room_texture_img texture_3">
             <img src="static/images/wall_texture2.png" alt="">
           </div>
           <!-- /.room_texture_img -->
 
           <div class="room_content_detail_flex">
-            <div class="room_detail_tx">
+            <div class="room_detail_img order_2">
+              <img src="static/images/3F-2_re_non.png" alt="">
+            </div>
+            <!-- /.room_detail_img -->
+            <div class="room_detail_tx order_1">
               <h4 class="room_floor_title">2nd - 6th Floor</h4>
               <!-- /.room_floor_title -->
               <h5 class="room_target">ご家族や友人グループ向け</h5>
@@ -267,10 +273,6 @@
               <!-- /.view_more -->
             </div>
             <!-- /.room_detail_tx -->
-            <div class="room_detail_img">
-              <img src="static/images/3F-2_re_non.png" alt="">
-            </div>
-            <!-- /.room_detail_img -->
           </div>
         </div>
         <!-- /.room_detail_content -->
@@ -310,7 +312,7 @@
                 <div class="access_param">
                   <div class="access_param_title_flex">
                     <div class="access_param_title_img">
-                      <img src="static/images/access_pin.png" alt="">
+                      <img src="static/images/mappoint2.png" alt="">
                     </div>
                     <!-- /.access_param_title_img -->
                     <p class="access_param_title_tx">住所</p>
@@ -326,7 +328,7 @@
                 <div class="access_param">
                   <div class="access_param_title_flex">
                     <div class="access_param_title_img">
-                      <img src="static/images/tel.png" alt="">
+                      <img src="static/images/callpoint2.png" alt="">
                     </div>
                     <!-- /.access_param_title_img -->
                     <p class="access_param_title_tx">電話</p>
@@ -431,7 +433,7 @@
         </div>
 
         <div class="footer_tx">
-          <p class="footer_param">〒111-0032 東京都台東区浅草7-2</p>
+          <p class="footer_param">〒111-0032 東京都台東区浅草7-2-5</p>
           <!-- /.access1 -->
           <p class="footer_param">
             <a href="https://7garden.co.jp/index.php/statics_new/about">by <span>SEVEN GARDEN</span></a>
@@ -446,16 +448,16 @@
             <!-- /.other_hotels_tx -->
             <div class="other_hotels_imgs">
               <a href="https://seven-garden.com/ja/hotel/SEVENGARDEN">
-                <img src="static/images/sevengarden_logo.png" alt="">
+                <img src="static/images/sevengarden2.png" alt="">
               </a>
               <a href="https://seven-garden.com/ja/hotel/vintage">
-              <img src="static/images/vintage_logo.png" alt="">
+              <img src="static/images/vintage2.png" alt="">
               </a>
               <a href="https://seven-garden.com/ja/hotel/KIKKA">
-                <img src="static/images/kikka_logo.png" alt="">
+                <img src="static/images/kikka2.png" alt="">
               </a>
               <a href="https://seven-garden.com/ja/hotel/Mei">
-                <img src="static/images/mei_logo.png" alt="">
+                <img src="static/images/mei2.png" alt="">
               </a>
             </div>
             <!-- /.other_hotels_imgs -->
@@ -468,12 +470,7 @@
   </div>
   <!-- /.wrapper -->
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-  <script>
-    $(window).load(functuon(){
-      $('.fv_line').addClass('fv_active');
-    });
-  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="static/js/common.js"></script>
 </body>
 </html>

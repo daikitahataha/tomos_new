@@ -13,6 +13,19 @@ body {
   z-index: -1;
   width: 100%;
   height: 740px; }
+  #fv .header_menu .menu2 {
+    position: fixed;
+    top: 4%;
+    left: 30px;
+    cursor: pointer;
+    z-index: 10000; }
+    #fv .header_menu .menu2 .menu-line {
+      width: 50px;
+      margin: 0 auto 10px;
+      background: #FFFFFF;
+      height: 2px;
+      display: block;
+      transition: all 0.3s ease; }
   #fv .logo_mark_img {
     position: absolute;
     top: 10%;
@@ -53,7 +66,7 @@ body {
     left: 0;
     margin: 0 auto;
     width: 1px;
-    height: 165px;
+    height: 155px;
     background-color: #FFFFFF;
     transition: all 2s ease; }
   #fv .fv_active {
@@ -128,7 +141,8 @@ body {
           letter-spacing: 0.2em; }
         #rooms_access .room_top_wrap .floor_index .floor_index_content dl .recommend {
           font-family: "SourceHanSerif";
-          font-size: 14px; }
+          font-size: 14px;
+          letter-spacing: 0.2em; }
     #rooms_access .room_top_wrap .catch_copy {
       margin: 0 auto;
       width: 30%; }
@@ -194,17 +208,17 @@ body {
         #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_param_wrap .room_param_val {
           font-family: "SourceHanSerif";
           font-size: 12px;
-          line-height: 2.7em;
+          line-height: 2em;
           letter-spacing: 0.2em;
           text-align: left; }
         #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .view_more {
           font-family: "Amiri-Bold";
-          padding: 4% 6%;
+          padding: 6% 6%;
           border: 0.5px solid #FFFFFF;
           text-align: center;
           margin: 12% auto 0 0;
           letter-spacing: 0.1em;
-          width: 50%; }
+          width: 60%; }
       #rooms_access .room_detail_wrap .room_detail_content .room_detail_img {
         width: 65%;
         margin: 0 0 0 auto; }
@@ -259,7 +273,9 @@ body {
                 display: flex;
                 align-items: center; }
                 #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex .access_param_title_img {
-                  width: 10%; }
+                  height: 8%; }
+                  #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex .access_param_title_img img {
+                    height: 100%; }
               #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_tx {
                 writing-mode: vertical-rl;
                 font-size: 16px;
@@ -317,6 +333,7 @@ body {
             font-family: "SourceHanSerif";
             text-align: left;
             line-height: 2.5em;
+            letter-spacing: 0.2em;
             width: 85%; }
 
 #footer {
@@ -340,7 +357,7 @@ body {
         font-family: "SourceHanSerif";
         letter-spacing: 0.2em;
         font-size: 14px;
-        margin-top: 5%; }
+        margin-top: 7%; }
         #footer .footer_wrap .footer_tx .footer_param a {
           font-family: "Amiri-Regular";
           color: #FFFFFF; }
@@ -352,13 +369,23 @@ body {
       #footer .footer_wrap .other_hotels .other_hotels_tx {
         font-family: "Amiri-Regular";
         text-align: center;
-        margin-bottom: 10%; }
+        margin-bottom: 10%;
+        letter-spacing: 0.2em; }
       #footer .footer_wrap .other_hotels .other_hotels_imgs {
         display: flex;
-        align-items: baseline;
+        align-items: center;
         margin-top: 5%; }
         #footer .footer_wrap .other_hotels .other_hotels_imgs a {
           width: 20%;
           margin: 0 auto; }
+
+.order_1 {
+  order: 1; }
+
+.order_2 {
+  order: 2; }
+
+.pc_none {
+  display: none; }
 
 /*# sourceMappingURL=base.css.map */

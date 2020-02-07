@@ -13,6 +13,26 @@ body
   z-index: -1
   width: 100%
   height: 740px
+  .header_menu
+    .menu2
+      position: fixed
+      top: 4%
+      left: 30px
+      cursor: pointer
+      z-index: 10000
+      .menu-line
+        width: 50px
+        margin: 0 auto 10px
+        background: #FFFFFF
+        height: 2px
+        display: block
+        transition: all 0.3s ease
+        .active span:nth-of-type(1)
+          -webkit-transform: translateY(5px) rotate(45deg)
+          transform: translateY(5px) rotate(45deg)
+        .active span:nth-of-type(2)
+          -webkit-transform: translateY(-16px) rotate(-45deg)
+          transform: translateY(-16px) rotate(-45deg)
   .logo_mark_img
     position: absolute
     top: 10%
@@ -53,7 +73,7 @@ body
     left: 0
     margin: 0 auto
     width: 1px
-    height: 165px
+    height: 155px
     background-color: #FFFFFF
     transition: all 2s ease
   .fv_active
@@ -130,6 +150,7 @@ body
           .recommend
             font-family: 'SourceHanSerif'
             font-size: 14px
+            letter-spacing: 0.2em
     .catch_copy
       margin: 0 auto
       width: 30%
@@ -197,17 +218,17 @@ body
           .room_param_val
             font-family: 'SourceHanSerif'
             font-size: 12px
-            line-height: 2.7em
+            line-height: 2em
             letter-spacing: 0.2em
             text-align: left
         .view_more
           font-family: 'Amiri-Bold'
-          padding: 4% 6%
+          padding: 6% 6%
           border: 0.5px solid #FFFFFF
           text-align: center
           margin: 12% auto 0 0
           letter-spacing: 0.1em
-          width: 50%
+          width: 60%
       .room_detail_img
         width: 65%
         margin: 0 0 0 auto
@@ -262,7 +283,9 @@ body
                 display: flex
                 align-items: center
                 .access_param_title_img
-                  width: 10%
+                  height: 8%
+                  img
+                    height: 100%
               .access_param_title_tx
                 writing-mode: vertical-rl
                 font-size: 16px
@@ -320,6 +343,7 @@ body
             font-family: 'SourceHanSerif'
             text-align: left
             line-height: 2.5em
+            letter-spacing: 0.2em
             width: 85%
 #footer
   width: 100%
@@ -342,7 +366,7 @@ body
         font-family: 'SourceHanSerif'
         letter-spacing: 0.2em
         font-size: 14px
-        margin-top: 5%
+        margin-top: 7%
         a
           font-family: 'Amiri-Regular'
           color: #FFFFFF
@@ -355,10 +379,23 @@ body
         font-family: 'Amiri-Regular'
         text-align: center
         margin-bottom: 10%
+        letter-spacing: 0.2em
       .other_hotels_imgs
         display: flex
-        align-items: baseline
+        align-items: center
         margin-top: 5%
         a
           width: 20%
           margin: 0 auto
+
+.order_1
+  order: 1
+
+.order_2
+  order: 2
+
+.pc_none
+  display: none
+
+.open
+  transform: translateX(100%)
