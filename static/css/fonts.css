@@ -8,10 +8,17 @@
   src: url('../fonts/Amiri-Regular.ttf') format('truetype');
 }
 
+/*@font-face{
+  font-family: 'FuturaStd-Light';
+  src: url('https://s3.ap-northeast-1.amazonaws.com/sevengarden/file/6/FuturaStd-Light.otf') format('opentype');
+}
+*/
+
 @font-face{
   font-family: 'FuturaStd-Light';
-  src: url('../fonts/FuturaStd-Light.otf') format('opentype');
+  src: url('https://s3.ap-northeast-1.amazonaws.com/sevengarden/file/7/Futura-Std-Light.otf') format('opentype');
 }
+
 
 @font-face{
   font-family: 'SourceHanSerif';
