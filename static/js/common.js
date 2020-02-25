@@ -24,6 +24,11 @@ jQuery(function($){
     //},1000).delay(10000);
   });
 
+  $('.nav-item').on('click', function(){
+    $('#MenuBtn').removeClass('active');
+    $('.menu-nav').removeClass('open_menu');
+    $('.menu-line').css('background', '#FFFFFF');
+  });
 
   $('#MenuBtn').on('click', function(){
     if($(this).hasClass('active')){
@@ -45,12 +50,22 @@ jQuery(function($){
     }
   });
 
-  //$('.nav-item').on('click', function(){
-  //  $('#MenuBtn').removeClass('active');
-  //  $('.menu-nav').removeClass('open_menu');
-  //  $('.menu-line').css('background', '#FFFFFF');
-  //});
+  $('.nav-item').on('click', function(){
+    $('#MenuBtn').removeClass('active');
+    $('.menu-nav').removeClass('open_menu');
+    $('.menu-line').css('background', '#FFFFFF');
+  });
 
-
+  //アンカーリンクの位置を調整
+  $(function () {
+    var headerHight = 0; //ヘッダの高さ
+    $('a[href^=#]').click(function(){
+      var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+         var position = target.offset().top-headerHight; //ヘッダの高さ分位置をずらす
+    $("html, body").animate({scrollTop:position}, 550, "swing");　//この数値は移動スピード
+       return false;
+  });
+});
 
 });

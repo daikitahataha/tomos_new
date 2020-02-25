@@ -437,28 +437,17 @@ html {
     width: 100%;
     display: flex; }
     #rooms_access .directions .map_wrap {
-      width: 50%;
-      position: relative; }
+      width: 50%; }
       #rooms_access .directions .map_wrap iframe {
         width: 100%;
         height: 100%;
         filter: grayscale(100%); }
-      #rooms_access .directions .map_wrap img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-        width: 100%;
-        z-index: 1000;
-        width: 85%; }
     #rooms_access .directions .directions_param_wrap {
       width: 50%;
       background: url(https://s3.ap-northeast-1.amazonaws.com/sevengarden/image/7/Tomos-back_biewpioint-1581336579.png) center center no-repeat;
       background-size: cover;
-      padding-top: 5%;
-      padding-bottom: 5%; }
+      padding-top: 8%;
+      padding-bottom: 16%; }
       #rooms_access .directions .directions_param_wrap .directions_title {
         font-family: "Amiri";
         font-weight: lighter;
@@ -466,16 +455,6 @@ html {
         font-size: 20px;
         letter-spacing: 0.2em;
         font-weight: lighter; }
-      #rooms_access .directions .directions_param_wrap .access_param_img {
-        width: 80%;
-        margin: 10% auto 5% auto; }
-      #rooms_access .directions .directions_param_wrap .access_catch .access_catch_tx {
-        text-align: center;
-        font-size: 16px;
-        color: rgba(255, 255, 255, 0.8);
-        letter-spacing: 0.2em;
-        line-height: 2em;
-        font-family: "SourceHanSerif"; }
       #rooms_access .directions .directions_param_wrap .directions_param_flex {
         display: flex;
         align-items: baseline;
@@ -502,13 +481,6 @@ html {
             line-height: 2.5em;
             letter-spacing: 0.2em;
             width: 85%; }
-  #rooms_access .map {
-    width: 100%;
-    height: 80vh; }
-    #rooms_access .map iframe {
-      width: 100%;
-      height: 100%;
-      filter: grayscale(100%); }
 
 #footer {
   width: 100%;

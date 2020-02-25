@@ -15,117 +15,129 @@
     width: 30%;
     margin: 0 auto; }
   .wrapper #concept .concept_tx_title {
-    font-size: 24px; }
+    font-size: 24px;
+    opacity: 1; }
   .wrapper #concept .concept_tx_lead {
-    font-size: 14px; }
-  .wrapper #rooms_access .room_top_wrap .floor_index .floor_index_content dl .floor {
-    font-size: 20px; }
-  .wrapper #rooms_access .room_top_wrap .floor_index .floor_index_content dl .recommend {
-    font-size: 12px; }
-  .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex .rooms {
-    font-size: 22px; }
-  .wrapper #rooms_access .room_top_wrap .catch_copy .catch_copy_tx_wrap .catch_copy_tx {
-    font-size: 22px; }
-  .wrapper #rooms_access .room_detail_wrap .content_1 {
-    height: 1050px; }
-    .wrapper #rooms_access .room_detail_wrap .content_1 .texture_1 {
-      height: 100%; }
-      .wrapper #rooms_access .room_detail_wrap .content_1 .texture_1 img {
+    font-size: 14px;
+    opacity: 1; }
+  .wrapper #rooms_access {
+    top: 90vh; }
+    .wrapper #rooms_access .room_top_wrap .floor_index .floor_index_content dl .floor {
+      font-size: 20px; }
+    .wrapper #rooms_access .room_top_wrap .floor_index .floor_index_content dl .recommend {
+      font-size: 12px; }
+    .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex .rooms {
+      font-size: 22px; }
+    .wrapper #rooms_access .room_top_wrap .catch_copy .catch_copy_tx_wrap .catch_copy_tx {
+      font-size: 22px; }
+    .wrapper #rooms_access .room_detail_wrap .content_1 {
+      height: 1300px; }
+      .wrapper #rooms_access .room_detail_wrap .content_1 .texture_1 {
         height: 100%; }
-  .wrapper #rooms_access .room_detail_wrap .content_2 {
-    height: 820px; }
-    .wrapper #rooms_access .room_detail_wrap .content_2 .texture_2 {
-      height: 100%; }
-      .wrapper #rooms_access .room_detail_wrap .content_2 .texture_2 img {
+        .wrapper #rooms_access .room_detail_wrap .content_1 .texture_1 img {
+          height: 100%; }
+    .wrapper #rooms_access .room_detail_wrap .content_2 {
+      height: 1050px; }
+      .wrapper #rooms_access .room_detail_wrap .content_2 .texture_2 {
         height: 100%; }
-  .wrapper #rooms_access .room_detail_wrap .content_3 {
-    height: 800px; }
-    .wrapper #rooms_access .room_detail_wrap .content_3 .texture_3 {
-      height: 100%; }
-      .wrapper #rooms_access .room_detail_wrap .content_3 .texture_3 img {
+        .wrapper #rooms_access .room_detail_wrap .content_2 .texture_2 img {
+          height: 100%; }
+    .wrapper #rooms_access .room_detail_wrap .content_3 {
+      height: 1100px; }
+      .wrapper #rooms_access .room_detail_wrap .content_3 .texture_3 {
         height: 100%; }
-  .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex {
-    display: block; }
-  .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_img img {
-    object-fit: cover; }
-  .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx {
-    margin: initial;
-    width: auto;
-    margin-top: 3%; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_floor_title {
-      font-size: 26px; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_target {
-      font-size: 14px;
-      margin: 1% 0 4% 0; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_catch_tx {
-      font-size: 12px;
-      margin-bottom: 5%; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_param_wrap .room_param_val {
-      font-size: 10px; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .view_more {
-      font-size: 14px;
-      margin: 5% auto 0 0;
-      padding: 3% 3%;
-      width: 30%; }
-  .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_img {
-    width: 100%;
-    height: 50%; }
+        .wrapper #rooms_access .room_detail_wrap .content_3 .texture_3 img {
+          height: 100%; }
+    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex {
+      display: block; }
     .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_img img {
-      height: 100%; }
-  .wrapper #rooms_access .access_wrap .access_asakusa_img {
-    height: 500px; }
-    .wrapper #rooms_access .access_wrap .access_asakusa_img img {
+      object-fit: cover; }
+    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx {
+      margin: initial;
+      width: auto;
+      margin-top: 3%; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_floor_title {
+        font-size: 26px; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_target {
+        font-size: 14px;
+        margin: 1% 0 4% 0; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_catch_tx {
+        font-size: 12px;
+        margin-bottom: 5%; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .room_param_wrap .room_param_val {
+        font-size: 10px; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_tx .view_more {
+        font-size: 14px;
+        margin: 5% auto 0 0;
+        padding: 6% 6% 5% 6%;
+        width: 30%; }
+    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_img {
       width: 100%;
-      height: 100%; }
-  .wrapper #rooms_access .access_wrap .access_tx {
-    padding: 5% 0;
-    width: 60%; }
-    .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap {
-      width: 90%; }
-      .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex {
-        margin-left: 53%; }
-        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex .access {
-          font-size: 22px; }
-      .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_title {
-        font-size: 22px; }
-      .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_lead {
-        font-size: 14px; }
-      .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_tx {
-        font-size: 14px; }
-      .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param p {
-        font-size: 12px; }
-  .wrapper #rooms_access .directions {
-    display: block; }
-    .wrapper #rooms_access .directions .map_wrap {
-      width: 100%;
-      height: 450px;
-      margin-top: 10%; }
-      .wrapper #rooms_access .directions .map_wrap iframe {
+      height: 50%; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_detail_img img {
+        height: 100%; }
+    .wrapper #rooms_access .access_wrap .access_asakusa_img {
+      height: 500px; }
+      .wrapper #rooms_access .access_wrap .access_asakusa_img img {
         width: 100%;
         height: 100%; }
-    .wrapper #rooms_access .directions .directions_param_wrap {
-      width: 100%; }
-      .wrapper #rooms_access .directions .directions_param_wrap .directions_title {
-        font-size: 18px; }
-      .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .directions_param_content .access_point {
-        font-size: 14px;
-        padding: 7%; }
-      .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .directions_param_content .access_way {
-        font-size: 10px; }
-  .wrapper #footer .footer_wrap .footer_logo_img {
-    width: 30%; }
-  .wrapper #footer .footer_wrap .footer_tx .footer_param {
-    font-size: 12px; }
-  .wrapper #footer .footer_wrap .other_hotels {
-    width: 60%;
-    margin-top: 10%; } }
+    .wrapper #rooms_access .access_wrap .access_tx {
+      padding: 5% 0;
+      width: 60%; }
+      .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap {
+        width: 90%; }
+        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex {
+          margin-left: 53%; }
+          .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex .access {
+            font-size: 22px; }
+        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_title {
+          font-size: 22px; }
+        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_lead {
+          font-size: 14px; }
+        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_tx {
+          font-size: 14px; }
+        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param p {
+          font-size: 12px; }
+    .wrapper #rooms_access .directions {
+      display: block;
+      -webkit-overflow-scrolling: touch;
+      overflow-scrolling: touch;
+      overflow-y: scroll; }
+      .wrapper #rooms_access .directions .map_wrap {
+        width: 80%;
+        height: 500px;
+        margin: 5% auto 5% auto; }
+        .wrapper #rooms_access .directions .map_wrap iframe {
+          width: 100%;
+          height: 100%; }
+      .wrapper #rooms_access .directions .directions_param_wrap {
+        width: 100%; }
+        .wrapper #rooms_access .directions .directions_param_wrap .access_param_img {
+          width: 65%;
+          margin: 10% auto 5% auto; }
+        .wrapper #rooms_access .directions .directions_param_wrap .directions_title {
+          font-size: 18px; }
+        .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .directions_param_content .access_point {
+          font-size: 14px;
+          padding: 7%; }
+        .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .directions_param_content .access_way {
+          font-size: 10px; }
+  .wrapper #footer {
+    top: 90vh; }
+    .wrapper #footer .footer_wrap .footer_logo_img {
+      width: 30%; }
+    .wrapper #footer .footer_wrap .footer_tx .footer_param {
+      font-size: 12px; }
+    .wrapper #footer .footer_wrap .other_hotels {
+      width: 60%;
+      margin-top: 10%; } }
 @media only screen and (max-width: 650px) {
   .wrapper {
     overflow: scroll; }
     .wrapper .pc_none {
       display: block; }
     .wrapper #fv {
-      height: 100%; }
+      height: 100vh !important; }
       .wrapper #fv .menu-nav {
         width: 70%;
         padding: 30% 0 0 20%; }
@@ -142,7 +154,9 @@
         .wrapper #fv .open .open_text_sp {
           width: 55%; }
     .wrapper #concept {
-      padding: 15% 0; }
+      padding: 15% 0;
+      height: 100vh;
+      top: 100vh; }
       .wrapper #concept .concept_tx_wrap {
         writing-mode: horizontal-tb; }
         .wrapper #concept .concept_tx_wrap .concept_tx_title {
@@ -150,103 +164,129 @@
           margin-left: initial;
           text-align: center;
           margin-bottom: 10%;
-          font-size: 22px; }
+          font-size: 22px;
+          opacity: 1; }
         .wrapper #concept .concept_tx_wrap .concept_tx_lead {
           writing-mode: horizontal-tb;
           text-align: center;
-          font-size: 12px; }
-    .wrapper #rooms_access .room_top_wrap {
-      display: block; }
-      .wrapper #rooms_access .room_top_wrap .floor_index {
-        margin: 3% 0 0 13%; }
-        .wrapper #rooms_access .room_top_wrap .floor_index .floor_index_content {
-          margin-top: 10%; }
-      .wrapper #rooms_access .room_top_wrap .catch_copy {
-        width: initial;
-        margin: initial; }
-        .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex {
-          margin: initial;
-          width: initial; }
-          .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex .rooms {
-            width: initial;
-            font-size: 20px; }
-          .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex .rooms_img_logo {
-            width: 8%;
-            margin-left: 5%; }
-        .wrapper #rooms_access .room_top_wrap .catch_copy .catch_copy_tx_wrap {
-          width: 100%;
-          margin: 3% 0 0 0; }
-          .wrapper #rooms_access .room_top_wrap .catch_copy .catch_copy_tx_wrap .catch_copy_tx {
-            writing-mode: horizontal-tb;
-            margin: initial;
-            width: initial;
-            font-size: 20px; }
-    .wrapper #rooms_access .room_detail_wrap .content_1 {
-      height: 850px; }
-    .wrapper #rooms_access .room_detail_wrap .content_2 {
-      height: 600px; }
-    .wrapper #rooms_access .room_detail_wrap .content_3 {
-      height: 600px; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_img {
-      height: 40%; }
-    .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_tx {
-      padding-right: 5%; }
-      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_tx .view_more {
-        width: 50%;
-        padding: 5% 6%; }
-    .wrapper #rooms_access .access_wrap {
-      display: block; }
-      .wrapper #rooms_access .access_wrap .access_asakusa_img {
-        width: 100%;
-        height: 380px; }
-        .wrapper #rooms_access .access_wrap .access_asakusa_img img {
-          object-fit: cover; }
-      .wrapper #rooms_access .access_wrap .access_tx {
-        width: 80%;
-        margin: 0 auto; }
-        .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap {
+          font-size: 12px;
+          opacity: 1; }
+    .wrapper #rooms_access {
+      top: 100vh; }
+      .wrapper #rooms_access .room_top_wrap {
+        display: block;
+        padding: 15% 0 0 0;
+        height: 98vh; }
+        .wrapper #rooms_access .room_top_wrap .floor_index {
+          margin: 3% 0 0 13%; }
+          .wrapper #rooms_access .room_top_wrap .floor_index .floor_index_content {
+            margin-top: 10%;
+            margin-bottom: 15%; }
+        .wrapper #rooms_access .room_top_wrap .catch_copy {
+          width: initial;
           margin: initial; }
-          .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex {
+          .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex {
             margin: initial;
-            width: initial; }
-            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex .rooms_img_logo {
-              width: 25px; }
-            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex .access {
+            width: initial;
+            margin-bottom: 10%; }
+            .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex .rooms {
+              width: initial;
               font-size: 20px; }
-          .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx {
-            writing-mode: horizontal-tb; }
-            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_title {
+            .wrapper #rooms_access .room_top_wrap .catch_copy .rooms_title_flex .rooms_img_logo {
+              width: 8%;
+              margin-left: 5%; }
+          .wrapper #rooms_access .room_top_wrap .catch_copy .catch_copy_tx_wrap {
+            width: 100%;
+            margin: 3% 0 14% 0; }
+            .wrapper #rooms_access .room_top_wrap .catch_copy .catch_copy_tx_wrap .catch_copy_tx {
               writing-mode: horizontal-tb;
-              font-size: 20px;
-              margin: initial; }
-            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_lead {
-              writing-mode: horizontal-tb;
-              font-size: 12px;
-              margin: 5% 0 10% 0; }
-            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param {
-              writing-mode: horizontal-tb;
-              margin-bottom: 5%; }
-              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param p {
-                font-size: 10px; }
-              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex {
-                align-items: baseline;
+              margin: initial;
+              width: initial;
+              font-size: 20px; }
+      .wrapper #rooms_access .room_detail_wrap .content_1 {
+        height: 950px; }
+      .wrapper #rooms_access .room_detail_wrap .content_2 {
+        height: 780px; }
+      .wrapper #rooms_access .room_detail_wrap .content_3 {
+        height: 800px; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_img {
+        height: 40%; }
+      .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_tx {
+        padding-right: 5%; }
+        .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_tx .room_param_wrap {
+          margin-bottom: 9%; }
+        .wrapper #rooms_access .room_detail_wrap .room_detail_content .room_content_detail_flex .room_detail_tx .view_more {
+          width: 100%;
+          padding: 6% 6% 5% 6%; }
+      .wrapper #rooms_access .access_wrap {
+        display: block; }
+        .wrapper #rooms_access .access_wrap .access_asakusa_img {
+          width: 100%;
+          height: 380px; }
+          .wrapper #rooms_access .access_wrap .access_asakusa_img img {
+            object-fit: cover; }
+        .wrapper #rooms_access .access_wrap .access_tx {
+          width: 80%;
+          margin: 0 auto;
+          padding: 10% 0; }
+          .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap {
+            margin: initial; }
+            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex {
+              margin: initial;
+              width: initial; }
+              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex .rooms_img_logo {
+                width: 25px; }
+              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_title_flex .access {
+                font-size: 20px; }
+            .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx {
+              writing-mode: horizontal-tb; }
+              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_title {
+                writing-mode: horizontal-tb;
+                font-size: 20px;
+                margin: initial; }
+              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .concept_tx_lead {
+                writing-mode: horizontal-tb;
+                font-size: 12px;
+                margin: 10% 0; }
+              .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param {
+                writing-mode: horizontal-tb;
                 margin-bottom: 5%; }
-                .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex .access_param_title_img {
-                  width: 5%;
-                  margin-right: 3%; }
-                .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex .access_param_title_tx {
-                  writing-mode: horizontal-tb;
+                .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param p {
                   font-size: 12px; }
-    .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .directions_param_content {
-      width: 45%; }
-    .wrapper #footer .footer_wrap {
-      width: 80%; }
-      .wrapper #footer .footer_wrap .footer_logo_img {
-        width: 50%; }
-      .wrapper #footer .footer_wrap .footer_tx .footer_param {
-        margin-top: 10%; }
-      .wrapper #footer .footer_wrap .other_hotels {
-        width: 80%;
-        margin-top: 15%; } }
+                .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex {
+                  align-items: baseline;
+                  margin-bottom: 5%; }
+                  .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex .access_param_title_img {
+                    width: 5%;
+                    margin-right: 3%; }
+                  .wrapper #rooms_access .access_wrap .access_tx .access_tx_content_wrap .access_lead_tx .access_param_wrap .access_param .access_param_title_flex .access_param_title_tx {
+                    writing-mode: horizontal-tb;
+                    font-size: 12px; }
+    .wrapper #rooms_access .directions .map_wrap {
+      width: 100%;
+      margin: initial;
+      height: 350px; }
+    .wrapper #rooms_access .directions .directions_param_wrap {
+      padding: 10% 0; }
+      .wrapper #rooms_access .directions .directions_param_wrap .access_param_img {
+        width: 85%; }
+      .wrapper #rooms_access .directions .directions_param_wrap .access_catch .access_catch_tx {
+        font-size: 12px; }
+      .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .directions_param_content {
+        width: 45%; }
+      .wrapper #rooms_access .directions .directions_param_wrap .directions_param_flex .last_content {
+        margin: 0 0 0 3%; }
+    .wrapper #footer {
+      top: 100vh; }
+      .wrapper #footer .footer_wrap {
+        width: 80%; }
+        .wrapper #footer .footer_wrap .footer_logo_img {
+          width: 50%; }
+        .wrapper #footer .footer_wrap .footer_tx .footer_param {
+          margin-top: 10%;
+          line-height: 1.6em; }
+        .wrapper #footer .footer_wrap .other_hotels {
+          width: 80%;
+          margin-top: 15%; } }
 
 /*# sourceMappingURL=media.css.map */

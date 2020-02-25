@@ -20,9 +20,12 @@
     #concept
       .concept_tx_title
         font-size: 24px
+        opacity: 1
       .concept_tx_lead
         font-size: 14px
+        opacity: 1
     #rooms_access
+      top: 90vh
       .room_top_wrap
         .floor_index
           .floor_index_content
@@ -40,19 +43,19 @@
               font-size: 22px
       .room_detail_wrap
         .content_1
-          height: 1050px
+          height: 1300px
           .texture_1
             height: 100%
             img
               height: 100%
         .content_2
-          height: 820px
+          height: 1050px
           .texture_2
             height: 100%
             img
               height: 100%
         .content_3
-          height: 800px
+          height: 1100px
           .texture_3
             height: 100%
             img
@@ -81,7 +84,7 @@
             .view_more
               font-size: 14px
               margin: 5% auto 0 0
-              padding: 3% 3%
+              padding: 6% 6% 5% 6%
               width: 30%
           .room_detail_img
             width: 100%
@@ -116,15 +119,21 @@
                     font-size: 12px
       .directions
         display: block
+        -webkit-overflow-scrolling: touch
+        overflow-scrolling: touch
+        overflow-y: scroll
         .map_wrap
-          width: 100%
-          height: 450px
-          margin-top: 10%
+          width: 80%
+          height: 500px
+          margin: 5% auto 5% auto
           iframe
             width: 100%
             height: 100%
         .directions_param_wrap
           width: 100%
+          .access_param_img
+            width: 65%
+            margin: 10% auto 5% auto
           .directions_title
             font-size: 18px
           .directions_param_flex
@@ -135,6 +144,7 @@
               .access_way
                 font-size: 10px
     #footer
+      top: 90vh
       .footer_wrap
         .footer_logo_img
           width: 30%
@@ -151,7 +161,7 @@
     .pc_none
       display: block
     #fv
-      height: 100%
+      height: 100vh!important
       .menu-nav
         width: 70%
         padding: 30% 0 0 20%
@@ -169,6 +179,11 @@
           width: 55%
     #concept
       padding: 15% 0
+      height: 100vh
+      top: 100vh
+      // -webkit-overflow-scrolling: touch
+      // overflow-scrolling: touch
+      // overflow-y: scroll
       .concept_tx_wrap
         writing-mode: horizontal-tb
         .concept_tx_title
@@ -177,23 +192,30 @@
           text-align: center
           margin-bottom: 10%
           font-size: 22px
+          opacity: 1
         .concept_tx_lead
           writing-mode: horizontal-tb
           text-align: center
           font-size: 12px
+          opacity: 1
     #rooms_access
+      top: 100vh
       .room_top_wrap
         display: block
+        padding: 15% 0 0 0
+        height: 98vh
         .floor_index
           margin: 3% 0 0 13%
           .floor_index_content
             margin-top: 10%
+            margin-bottom: 15%
         .catch_copy
           width: initial
           margin: initial
           .rooms_title_flex
             margin: initial
             width: initial
+            margin-bottom: 10%
             .rooms
               width: initial
               font-size: 20px
@@ -202,7 +224,7 @@
               margin-left: 5%
           .catch_copy_tx_wrap
             width: 100%
-            margin: 3% 0 0 0
+            margin: 3% 0 14% 0
             .catch_copy_tx
               writing-mode: horizontal-tb
               margin: initial
@@ -210,20 +232,22 @@
               font-size: 20px
       .room_detail_wrap
         .content_1
-          height: 850px
+          height: 950px
         .content_2
-          height: 600px
+          height: 780px
         .content_3
-          height: 600px
+          height: 800px
         .room_detail_content
           .room_content_detail_flex
             .room_detail_img
               height: 40%
             .room_detail_tx
               padding-right: 5%
+              .room_param_wrap
+                margin-bottom: 9%
               .view_more
-                width: 50%
-                padding: 5% 6%
+                width: 100%
+                padding: 6% 6% 5% 6%
       .access_wrap
         display: block
         .access_asakusa_img
@@ -234,6 +258,7 @@
         .access_tx
           width: 80%
           margin: 0 auto
+          padding: 10% 0
           .access_tx_content_wrap
             margin: initial
             .access_title_flex
@@ -252,13 +277,13 @@
               .concept_tx_lead
                 writing-mode: horizontal-tb
                 font-size: 12px
-                margin: 5% 0 10% 0
+                margin: 10% 0
               .access_param_wrap
                 .access_param
                   writing-mode: horizontal-tb
                   margin-bottom: 5%
                   p
-                    font-size: 10px
+                    font-size: 12px
                   .access_param_title_flex
                     align-items: baseline
                     margin-bottom: 5%
@@ -270,11 +295,26 @@
                       font-size: 12px
     #rooms_access
       .directions
+        //overflow-y: scroll
+        //height: 100vh
+        .map_wrap
+          width: 100%
+          margin: initial
+          height: 350px
         .directions_param_wrap
+          padding: 10% 0
+          .access_param_img
+            width: 85%
+          .access_catch
+            .access_catch_tx
+              font-size: 12px
           .directions_param_flex
             .directions_param_content
               width: 45%
+            .last_content
+              margin: 0 0 0 3%
     #footer
+      top: 100vh
       .footer_wrap
         width: 80%
         .footer_logo_img
@@ -282,6 +322,7 @@
         .footer_tx
           .footer_param
             margin-top: 10%
+            line-height: 1.6em
         .other_hotels
           width: 80%
           margin-top: 15%

@@ -6,6 +6,10 @@ body
 
 html
   scroll-behavior: smooth
+  -webkit-overflow-scrolling: touch
+  overflow-scrolling: touch
+  overflow-y: scroll
+  height: 100vh
 
 #fv
   background: url(https://s3.ap-northeast-1.amazonaws.com/sevengarden/image/7/Tomos-fv_entrance-1581336438.png) center center no-repeat
@@ -15,7 +19,7 @@ html
   left: 0
   z-index: 0
   width: 100%
-  height: 740px
+  height: 100vh!important
   animation: zoom-out 30s infinite
   -webkit-animation: zoom-out 30s infinite
   .header_menu
@@ -149,15 +153,15 @@ html
       margin-left: 20%
       letter-spacing: 0.3em
       writing-mode: vertical-rl
-      visibility: hidden
+      opacity: 0
       animation-delay: 1s
     .concept_tx_lead
       font-size: 16px
       line-height: 2.3em
       letter-spacing: 0.2em
       writing-mode: vertical-rl
-      animation-delay: 2s
-      visibility: hidden
+      animation-delay: 3s
+      opacity: 0
 #concept:before
   background: rgba(0, 0, 0, .4)
   position: absolute
@@ -170,7 +174,7 @@ html
 #rooms_access
   background: #16160E
   position: relative
-  top: 1480px
+  top: 200vh
   z-index: 1000
   color: #FFFFFF
   .room_top_wrap
@@ -336,16 +340,22 @@ html
           text-align: left
           margin-bottom: 13%
         .room_param_wrap
+          .pick_param
+            margin-top: 10%
+            padding-top: 11%
+            border-top: 1px solid #FFFFFF
           .room_param_val
             font-family: 'Noto Serif JP'
             font-size: 12px
             line-height: 2em
             letter-spacing: 0.2em
             text-align: left
+            .eye_param
+              color: #E0CB9A
         .view_more
           font-family: 'Amiri'
           font-weight: bold
-          padding: 6% 6%
+          padding: 6% 6% 5% 6%
           border: 0.5px solid #FFFFFF
           text-align: center
           margin: 12% auto 0 0
@@ -369,13 +379,13 @@ html
       padding-top: 10%
       color: #FFFFFF
       .access_tx_content_wrap
-        width: 85%
+        width: 75%
         margin: 0 0 0 auto
         .access_title_flex
           display: flex
           align-items: center
           width: 40%
-          margin-left: 47%
+          margin-left: 35%
           .access
             font-family: "FuturaStd-Light"
             font-size: 24px
@@ -421,26 +431,39 @@ html
                 line-height: 2.5em
                 letter-spacing: 0.3em
                 margin-top: 3%
+                font-family: 'Noto Serif JP'
               p
                 font-size: 14px
                 line-height: 2.2em
                 font-weight: lighter
                 letter-spacing: 0.3em
+                font-family: 'Noto Serif JP'
   .directions
     width: 100%
     display: flex
     .map_wrap
       width: 50%
+      position: relative
       iframe
         width: 100%
         height: 100%
         filter: grayscale(100%)
+      img
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        margin: auto
+        width: 100%
+        z-index: 1000
+        width: 85%
     .directions_param_wrap
       width: 50%
       background: url(https://s3.ap-northeast-1.amazonaws.com/sevengarden/image/7/Tomos-back_biewpioint-1581336579.png) center center no-repeat
       background-size: cover
-      padding-top: 8%
-      padding-bottom: 16%
+      padding-top: 5%
+      padding-bottom: 5%
       .directions_title
         font-family: 'Amiri'
         font-weight: lighter
@@ -448,6 +471,17 @@ html
         font-size: 20px
         letter-spacing: 0.2em
         font-weight: lighter
+      .access_param_img
+        width: 80%
+        margin: 10% auto 5% auto
+      .access_catch
+        .access_catch_tx
+          text-align: center
+          font-size: 16px
+          color: rgba(255,255,255, 0.8)
+          letter-spacing: 0.2em
+          line-height: 2em
+          font-family: 'SourceHanSerif'
       .directions_param_flex
         display: flex
         align-items: baseline
@@ -474,10 +508,17 @@ html
             line-height: 2.5em
             letter-spacing: 0.2em
             width: 85%
+  .map
+    width: 100%
+    height: 80vh
+    iframe
+      width: 100%
+      height: 100%
+      filter: grayscale(100%)
 #footer
   width: 100%
   position: relative
-  top: 1480px
+  top: 200vh
   z-index: 1000
   background: #16160E
   padding: 8% 0
